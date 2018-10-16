@@ -1,0 +1,42 @@
+body, html {
+	font-family: 'Consolas';
+	margin: 0;
+	font-size: 16px;
+	background-color: black;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.baner {
+	background-image: url("/media/baner.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+ul {
+	position: relative;
+	top: 400px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #000;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: white;
+}
+
