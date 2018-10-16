@@ -1,6 +1,5 @@
 body, html {
-	font-family: 'Consolas';
-	margin: 0;
+	font-family: 'Lucida Console';
 	font-size: 16px;
 	background-color: black;
 }
@@ -39,4 +38,35 @@ li a {
 li a:hover {
 	background-color: white;
 }
-
+h1 {
+    font-family: 'Lucida Console';
+	font-size: 1em;
+	color: red;
+	position: relative;
+	top: 400px;
+	margin: 0.5em;
+}
+figure {
+	position: relative;
+	top: 400px;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+	color: white;
+}
+figcaption {
+	font-size: 80%;
+}
+img {
+	width: 100%;
+}
+p {
+	position: relative;
+	top: 400px;
+	margin: 1em;
+	line-height: 1em;
+	color: white;
+	letter-spacing: 1.5px;
+}
