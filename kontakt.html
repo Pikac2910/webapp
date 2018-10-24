@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hr-HR">
+<head>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="description" content="Projektni zadatak VVG WebApp">
+<meta name="keywords" content="Projekt,VVG, WebApp">
+<meta name="author" content="Juraj Pinko">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0; user-scalable=0;">
+<title>Novosti</title>
+</head>
+<body>
+	<header>
+			<div class="baner"></div>
+	<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="novosti.html">Novosti</a></li>
+			  <li><a href="kontakt.html">Kontakt</a></li>
+			  <li><a href="o_nama.html">O nama</a></li>
+			  <li><a href="galerija.html">Galerija</a></li>
+			</ul>
+	</nav>
+	<main>
+		<h1>Kontaktirajte nas</h1>
+		<div id="kontakt">
+			<iframe src="https://maps.google.com/maps?q=veleuciliste%20velika%20gorica&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="mailto:juraj.pinko@gmail.com" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Ime...</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime.." required>
+
+				<label for="lname">Prezime...</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime.." required>
+				
+				<label for="lname">Vaš email...</label>
+				<input type="email" id="email" name="email" placeholder="Vaš mail..." required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option value="">Molimo izaberite</option>
+				  <option value="BIH">BIH</option>
+				  <option value="HR">Hrvatska</option>
+				  <option value="Srbija">Srbija</option>
+				  <option value="SMC" selected>Sjeverna Makedonija</option>
+				   <option value="NI">Sjeverna Irska</option>
+				  <option value="AU">Austrija</option>
+				  <option value="SL">Slovačka</option>
+				  <option value="CZ">Češka</option>
+				</select>
+
+				<label for="subject">Naslov poruke...</label>
+				<textarea id="subject" name="subject" placeholder="Vaša poruka..." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+</div>
+	<footer>
+		<p>Copyright &copy; Juraj Pinko VVG Web Aplikacije 2018</p>
+</footer>
+</header>
+</body>
+</html> 
